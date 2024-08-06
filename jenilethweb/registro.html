@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevaditos Express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</html>
+
+<div>
+    <button onclick="window.history.back()" class="btn-regresar">Regresar</button>
+    <a href="index.html">Regresar a Inicio</a>
+
+</div>
+
+<body>
+    <div class="container" id="registro_body">
+    <h1 class="title">Registrate</h1>
+    <form action="procesar registro.php"
+    method="post" class="formulario">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="name" name="nombre" required><br>
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br>
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo" required><br>
+    <label for="contraseña">Contraseña:</label><br>
+    <input type="password" id="contraseña" name="contraseña" required><br><br>
+    <input type="submit" value="Registrate">
+<p>¿Ya tienes una cuenta? <a href="login.html" >Inicia sesion aqui </a></p>
+</form>
+    </div>
+</body>
